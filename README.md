@@ -20,14 +20,14 @@ It includes performance tracking, unit tests, and a command-line interface for b
 ## Repository Structure
 assignment2-insertion-sort/
 ├── src/main/java/
-│   ├── algorithms/InsertionSort.java
-│   ├── metrics/PerformanceTracker.java
-│   └── cli/BenchmarkRunner.java
+│ ├── algorithms/InsertionSort.java
+│ ├── metrics/PerformanceTracker.java
+│ └── cli/BenchmarkRunner.java
 ├── src/test/java/
-│   └── algorithms/InsertionSortTest.java
+│ └── algorithms/InsertionSortTest.java
 ├── docs/
-│   ├── analysis-report.pdf
-│   └── performance-plots/
+│ ├── analysis-report.pdf
+│ └── performance-plots/
 ├── README.md
 ├── benchmark_results.csv
 └── pom.xml
