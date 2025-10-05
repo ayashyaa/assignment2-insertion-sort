@@ -18,6 +18,7 @@ It includes performance tracking, unit tests, and a command-line interface for b
 - Comprehensive **unit tests** for edge cases (empty arrays, single elements, duplicates).
 
 ## Repository Structure
+
 assignment2-insertion-sort/
 ├── src/main/java/
 │   ├── algorithms/InsertionSort.java
@@ -31,4 +32,5 @@ assignment2-insertion-sort/
 ├── README.md
 ├── benchmark_results.csv
 └── pom.xml
+
 
