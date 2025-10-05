@@ -1,4 +1,4 @@
-# Assignment 2: Insertion Sort Benchmark
+# Assignment 2: Insertion Sort 
 
 ## Project Overview
 This project is part of Assignment 2: Algorithmic Analysis and Peer Code Review.  
