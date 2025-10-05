@@ -18,7 +18,6 @@ It includes performance tracking, unit tests, and a command-line interface for b
 - Comprehensive **unit tests** for edge cases (empty arrays, single elements, duplicates).
 
 ## Repository Structure
-
 - **assignment2-insertion-sort/**
   - **src/main/java/**
     - **algorithms/**  
@@ -36,42 +35,32 @@ It includes performance tracking, unit tests, and a command-line interface for b
   - `README.md`
   - `benchmark_results.csv`
   - `pom.xml`
- 
+
 ## Usage
-Running the Benchmark Runner:
--To measure the performance of Insertion Sort on different array types and sizes:
-java -cp target/classes cli.BenchmarkRunner
+- **Running the Benchmark Runner:**  
+  To measure the performance of Insertion Sort on different array types and sizes, run:  
+- **Output:**  
+Results are saved in a CSV file: `benchmark_results.csv`  
+Example CSV line:  
 
-## Output
-Results are saved in a CSV file:
--benchmark_results.csv
-
-Example CSV line:
--n=1000, Type=Random, Time=1.322ms, Comparisons=248560, Swaps=247566
 
 ## Testing
-Running Unit Tests
+- **Running Unit Tests:**  
 Tests are run using Maven:
--mvn test
-
-Test Coverage:
--Empty arrays ([])
--Single-element arrays ([42])
--Arrays with duplicates ([1, 2, 2, 3])
--Nearly-sorted arrays
--Sorted and reverse-sorted arrays
-
+- **Test Coverage:**
+- Empty arrays (`[]`)
+- Single-element arrays (`[42]`)
+- Arrays with duplicates (`[1, 2, 2, 3]`)
+- Nearly-sorted arrays
+- Sorted and reverse-sorted arrays
 
 ## Performance
--Tracked Metrics:
-   -Execution time (Time)
-   -Number of comparisons (Comparisons)
-   -Number of swaps (Swaps)
--Supported array types:
-   -Random
-   -Sorted
-   -Reverse
-   -NearlySorted
-
-
-
+- **Tracked Metrics:**
+- Execution time (`Time`)
+- Number of comparisons (`Comparisons`)
+- Number of swaps (`Swaps`)
+- **Supported Array Types:**
+- Random
+- Sorted
+- Reverse
+- NearlySorted
