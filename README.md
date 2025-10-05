@@ -29,9 +29,6 @@ It includes performance tracking, unit tests, and a command-line interface for b
   - **src/test/java/**
     - **algorithms/**  
       - `InsertionSortTest.java`
-  - **docs/**
-    - `analysis-report.pdf`
-    - **performance-plots/**
   - `README.md`
   - `benchmark_results.csv`
   - `pom.xml`
